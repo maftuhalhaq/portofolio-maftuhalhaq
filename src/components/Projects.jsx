@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectImage1 from "../assets/icons/myproject.jpg";
 import { SiGithub } from "react-icons/si"; // Mengimpor ikon GitHub
 
 // Data proyek yang lebih detail
@@ -7,7 +8,7 @@ const myProjects = [
     title: "Personal Portfolio Website",
     description:
       "An interactive portfolio built from scratch to showcase my projects and skills.",
-    image: "../../public/myproject.jpg", // <-- Ganti dengan path gambar Anda
+    image: ProjectImage1, // <-- 2. Gunakan variabel gambar
     tags: ["React", "Tailwind CSS", "Vite"],
     liveLink: "#", // <-- Ganti dengan link deploy
     repoLink: "https://github.com/your-username/your-repo", // <-- Ganti dengan link repo
@@ -16,7 +17,7 @@ const myProjects = [
     title: "To-Do List App",
     description:
       "A functional task management application with features to add, delete, and mark tasks as complete.",
-    image: "../../public/myproject.jpg", // <-- Ganti dengan path gambar Anda
+    image: ProjectImage1, // <-- Ganti dengan path gambar Anda
     tags: ["React", "JavaScript", "CSS3"],
     liveLink: "#",
     repoLink: "https://github.com/your-username/your-repo",
@@ -25,7 +26,7 @@ const myProjects = [
     title: "Website UI Clone",
     description:
       "A recreation of a popular website's user interface to practice styling skills.",
-    image: "../../public/myproject.jpg", // <-- Ganti dengan path gambar Anda
+    image: ProjectImage1, // <-- Ganti dengan path gambar Anda
     tags: ["React", "Tailwind CSS"],
     liveLink: "#",
     repoLink: "https://github.com/your-username/your-repo",
